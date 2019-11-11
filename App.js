@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
-import Category from './src/Category';
+import Rootstack from './src/Navigator/Rootstack.js'
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
-    return <Category />;
+    return (
+      <Rootstack />
+    );
   }
 }
+
